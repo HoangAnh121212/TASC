@@ -1,18 +1,20 @@
-package com.example.demostring;
+package com.example.demojavacore.String;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+public class DemoString {
 
-@SpringBootApplication
-public class DemoStringApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoStringApplication.class, args);
+        DemoString();
+
+    }
+
+
+    public static void DemoString (){
         //các cách để tạo biến String
-      //  1. Sử dụng String Literal
-      //  String literal được tạo ra bằng cách sử dụng 2 dấu nháy kép. Ví dụ:
+        //  1. Sử dụng String Literal
+        //  String literal được tạo ra bằng cách sử dụng 2 dấu nháy kép. Ví dụ:
         String a = "welcome";
-      //  2. Sử dụng từ khóa new
+        //  2. Sử dụng từ khóa new
         String b =new String("Welcome");
 
 
@@ -28,5 +30,4 @@ public class DemoStringApplication {
         System.out.println(s1.equals(s4));
         System.out.println(s5==s6);
     }
-
 }
